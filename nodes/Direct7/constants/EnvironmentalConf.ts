@@ -1,0 +1,1 @@
+export const DIRECT7_BASE_URL = 'https://apialpha.d7networks.com';
