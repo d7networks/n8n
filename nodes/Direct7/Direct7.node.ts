@@ -1,5 +1,6 @@
 import { NodeConnectionTypes, type INodeType, type INodeTypeDescription } from 'n8n-workflow';
 import { whatsappDescription } from './resources/whatsapp/index';
+import { smsDescription } from './resources/sms/index';
 import { DIRECT7_BASE_URL } from './constants/EnvironmentalConf';
 
 
@@ -34,12 +35,17 @@ export class Direct7 implements INodeType {
 				noDataExpression: true,
 				options: [
 					{
+						name: 'SMS',
+						value: 'sms',
+					},
+					{
 						name: 'WhatsApp',
 						value: 'whatsapp',
 					},
 				],
-				default: 'whatsapp',
+				default: 'sms',
 			},
+			...smsDescription,
 			...whatsappDescription,
 		],
 	};
