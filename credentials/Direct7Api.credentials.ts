@@ -13,7 +13,7 @@ export class Direct7Api implements ICredentialType {
 
 	displayName = 'Direct7 API';
 
-	documentationUrl = 'https://docs.n8n.io/integrations/builtin/credentials/direct7/';
+	documentationUrl = 'https://github.com/d7networks/n8n#credentials';
 
 	icon: Icon = {
 		light: 'file:../nodes/Direct7/direct7.svg',

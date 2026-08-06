@@ -1,9 +1,16 @@
 {
-  "name": "@n8n/n8n-nodes-direct7",
-  "version": "0.1.0",
+  "name": "n8n-nodes-direct7",
+  "version": "0.1.1",
   "description": "n8n nodes for Direct7 messaging integration.",
   "license": "MIT",
   "homepage": "https://d7networks.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d7networks/n8n.git"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
   "keywords": [
     "n8n-community-node-package",
     "n8n",

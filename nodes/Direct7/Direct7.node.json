@@ -1,17 +1,17 @@
 {
-	"node": "@n8n/n8n-nodes-direct7",
+	"node": "n8n-nodes-direct7",
 	"nodeVersion": "1.0",
 	"codexVersion": "1.0",
 	"categories": ["Communication"],
 	"resources": {
 		"credentialDocumentation": [
 			{
-				"url": "https://docs.n8n.io/integrations/builtin/credentials/direct7/"
+				"url": "https://github.com/d7networks/n8n#credentials"
 			}
 		],
 		"primaryDocumentation": [
 			{
-				"url": "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.direct7/"
+				"url": "https://github.com/d7networks/n8n#readme"
 			}
 		]
 	}

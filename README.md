@@ -46,7 +46,7 @@ You need a **Direct7 API** credential:
 
 The credential is verified automatically against the D7 API token-verification endpoint.
 
-Full credential documentation: [https://docs.n8n.io/integrations/builtin/credentials/direct7/](https://docs.n8n.io/integrations/builtin/credentials/direct7/)
+Full credential documentation: see the [Credentials](#credentials) section above.
 
 ## Compatibility
 
@@ -79,7 +79,7 @@ Full credential documentation: [https://docs.n8n.io/integrations/builtin/credent
 
 ## Resources
 
-- [n8n documentation](https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.direct7/)
+- [n8n community nodes documentation](https://docs.n8n.io/integrations/community-nodes/)
 - [Direct7 WhatsApp API reference](https://d7networks.com/docs/whatsapp/overview/)
 - [D7 API authentication](https://d7networks.com/docs/Authentication/Overview/)
 
