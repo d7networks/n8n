@@ -1,6 +1,7 @@
 import { NodeConnectionTypes, type INodeType, type INodeTypeDescription } from 'n8n-workflow';
 import { whatsappDescription } from './resources/whatsapp/index';
 import { smsDescription } from './resources/sms/index';
+import { hlrDescription } from './resources/hlr/index';
 import { DIRECT7_BASE_URL } from './constants/EnvironmentalConf';
 
 
@@ -35,6 +36,10 @@ export class Direct7 implements INodeType {
 				noDataExpression: true,
 				options: [
 					{
+						name: 'HLR (Number Lookup)',
+						value: 'hlr',
+					},
+					{
 						name: 'SMS',
 						value: 'sms',
 					},
@@ -45,6 +50,7 @@ export class Direct7 implements INodeType {
 				],
 				default: 'sms',
 			},
+			...hlrDescription,
 			...smsDescription,
 			...whatsappDescription,
 		],
