@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-direct7",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "n8n nodes for Direct7 messaging integration.",
   "license": "MIT",
   "homepage": "https://d7networks.com",
