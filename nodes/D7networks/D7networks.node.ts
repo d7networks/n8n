@@ -7,15 +7,15 @@ import { DIRECT7_BASE_URL } from './constants/EnvironmentalConf';
 
 export class Direct7 implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'Direct7',
-		name: 'direct7',
+		displayName: 'Direct7 Networks',
+		name: 'd7networks',
 		icon: { light: 'file:direct7.svg', dark: 'file:direct7.dark.svg' },
 		group: ['output'],
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
-		description: 'Interact with the Direct7 API',
+		description: 'Interact with the Direct7 Networks API',
 		defaults: {
-			name: 'Direct7',
+			name: 'Direct7 Networks',
 		},
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],

@@ -22,5 +22,5 @@
 		"outDir": "./dist/"
 	},
 	"include": ["credentials/**/*.ts", "nodes/**/*.ts", "nodes/**/*.json", "package.json"],
-	"exclude": ["dist", "node_modules", "nodes/Direct7/resources/company/getAll.ts"]
+	"exclude": ["dist", "node_modules", "nodes/D7networks/resources/company/getAll.ts"]
 }
