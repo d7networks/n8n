@@ -6,7 +6,7 @@ import type {
 	INodeProperties,
 } from 'n8n-workflow';
 
-import { DIRECT7_BASE_URL } from '../nodes/D7networks/constants/EnvironmentalConf';
+import { DIRECT7_BASE_URL } from '../nodes/Direct7/constants/EnvironmentalConf';
 
 export class Direct7Api implements ICredentialType {
 	name = 'direct7Api';
@@ -16,8 +16,8 @@ export class Direct7Api implements ICredentialType {
 	documentationUrl = 'https://github.com/d7networks/n8n#credentials';
 
 	icon: Icon = {
-		light: 'file:../nodes/D7networks/direct7.svg',
-		dark: 'file:../nodes/D7networks/direct7.dark.svg',
+		light: 'file:../nodes/Direct7/direct7.svg',
+		dark: 'file:../nodes/Direct7/direct7.dark.svg',
 	};
 
 	properties: INodeProperties[] = [

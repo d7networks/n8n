@@ -8,7 +8,7 @@ import { DIRECT7_BASE_URL } from './constants/EnvironmentalConf';
 export class Direct7 implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Direct7 Networks',
-		name: 'd7networks',
+		name: 'direct7',
 		icon: { light: 'file:direct7.svg', dark: 'file:direct7.dark.svg' },
 		group: ['output'],
 		version: 1,

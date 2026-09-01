@@ -45,7 +45,7 @@
       "dist/credentials/Direct7Api.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/D7networks/D7networks.node.js"
+      "dist/nodes/Direct7/Direct7.node.js"
     ]
   },
   "devDependencies": {
